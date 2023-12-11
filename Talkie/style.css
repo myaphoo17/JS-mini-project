@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 60vh;
+
+  background: linear-gradient(100deg, #00c4c7 0%, #d445c8 100%);
+}
+
+.container {
+  border-radius: 30px;
+  padding: 3rem 0.5rem;
+
+  margin: 1rem auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 20rem;
+
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+.ST,
+.TS {
+  color: #404142cc;
+  font-size: 20px;
+}
+
+.ST {
+  margin-top: 2rem;
+}
+
+.TS {
+  margin-bottom: 2rem;
+}
+
+#text-to-speak,
+#speech-to-speak {
+  border-radius: 0.5rem;
+}
+
+#speech-to-speak {
+	input-security: none;
+  }
+
+#speak-button {
+  background-image: linear-gradient(to right, #aa076b 0%, #aa076b 100%);
+  margin: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 40px;
+  display: block;
+  border-color: rgba(247, 247, 247, 0.753);
+}
+
+#speech-input i.fas.fa-microphone {
+  font-size: 25px;
+  color: aliceblue;
+}
+
+#speech-input {
+  background-image: linear-gradient(to right, #aa076b 0%, #aa076b 100%);
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 30px;
+  border-color: rgba(247, 247, 247, 0.753);
+  width: 3rem;
+  height: 3rem;
+}

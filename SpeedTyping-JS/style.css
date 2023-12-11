@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #44088d;
+    background: linear-gradient(0deg, #1A46CC, #A56AEF);
+}
+
+.container {
+    background-color: rgb(200, 187, 255);
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 450px;
+    height: 210px;
+    max-width: 90%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.timer {
+    position: absolute;
+    margin-bottom: 25rem;
+    font-size: 3rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #c0f0ff;
+    font-weight: bold;
+}
+
+.quote-display {
+    margin-left: 3rem;
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(71, 38, 90);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-input {
+    background-color: transparent;
+
+    width: 80%;
+
+    height: 6rem;
+    margin-left: 1.6rem;
+    margin-top: 2rem;
+    resize: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: .8rem;
+    background-color: rgb(254, 247, 255);
+
+    border-color: rgb(238, 218, 240);
+    outline: none;
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 1px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+quote-input-focus {
+    border-color: rgb(119, 41, 41);
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: rgb(136, 32, 32);
+}
